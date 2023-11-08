@@ -21,7 +21,7 @@ class click():
 
 def gen_body():
     i = 0
-    with open('PentoolGUI.py','w',encoding='utf-8')as f:
+    with open('PentoolsGUI.py','w',encoding='utf-8')as f:
         f.write("""
 from PySide6.QtCore import (QRect, Qt)
 from PySide6.QtGui import (QFont, QIcon)
