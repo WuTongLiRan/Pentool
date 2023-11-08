@@ -2,7 +2,7 @@ import os
 import platform
 
 base_dir = os.getcwd()
-python = 'python3'
+python = 'python3'#运行 Python 工具时使用的 Python 版本
 tools = {
 '漏洞利用':{
         '打开漏洞利用目录':

@@ -12,10 +12,13 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
 
 ## 安装
 
-1. 要使用 Pentools 需要安装 PySide6 库 (若下载慢可以换源)
+1. 要使用 Pentools 需要安装 PySide6 库 
 
    ```
    pip install PySide6
+   
+   //若下载慢可以换源：
+   pip install PySide6 -i https://pypi.tuna.tsinghua.edu.cn/simple
    ```
 
 2. 将项目下载到本地指定地方 (git 克隆或者手动下载 zip 压缩包)
@@ -26,9 +29,9 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
    
    123云盘-https://www.123pan.com/s/C5VRVv-EtEAA.html提取码:04MZ
 
-> 这些渗透工具是通过网上收集而来，不保证安全性，可用来初次参考
+> 这些渗透工具是通过网上收集而来，不保证其安全性，可作为初次参考
 >
-> 熟悉后建议删掉，使用自己收集的工具
+> 待熟悉如何添加工具列表后建议删掉，使用自己收集的工具
 
 一切就绪后项目目录结构如下：
 
@@ -62,12 +65,15 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
 ```
 E:\Python\Python37\python.exe GUIBuild.py
 E:\Python\Python37\python.exe PentoolGUI.py
-@REM 将python.exe的路径修改成自己电脑上的正确路径，如果电脑不支持这种运行方式就直接：python GUIBuild.py 和 python PentoolsGUI.py
+
+//将python.exe的路径修改成自己电脑上的正确路径
+//如果电脑不支持这种运行方式就直接改成 python GUIBuild.py 和 python PentoolsGUI.py
 ```
 
 2.打开 config.py ，配置工具列表以及执行语句
 
 ```python
+python = 'python3'#运行 Python 工具时使用的 Python 版本
 tools = {
 '工具分类1':{
          '工具1':
@@ -86,6 +92,17 @@ tools = {
 ......
 }
 #执行语句的格式看下面的讲解
+
+#Java路径设置
+tools_path = os.getcwd()
+if platform.system() == 'Windows' :
+    java8_path = (tools_path + "\Java_path\jre_1.8_win\\bin\java").replace('\\','\\\\')
+    java9_path = (tools_path + "\Java_path\java9_win\\bin\java").replace('\\','\\\\')
+    java11_path = (tools_path + "\Java_path\Java_11_win\\bin\java").replace('\\','\\\\')
+else:
+    java8_path = tools_path + "/Java_path/java_1.8/bin/java"
+    java9_path = tools_path + "/Java_path/java9/bin/java"
+    java11_path = tools_path + "/Java_path/Java_11_win/bin/java"
 ```
 
 3.双击 `一键启动.vbs` 启动 UI
