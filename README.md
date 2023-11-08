@@ -20,8 +20,7 @@ Pentool 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可�
 
 3. 下载作为示例的渗透工具和 Java 执行文件到项目目录下 (可选，也可以不下载)
 
-   百度网盘-(待上传)
-
+   百度网盘-https://pan.baidu.com/s/1VW0CI-uzLD5zDAaA1GbMdA?pwd=24mh 
    123云盘-(待上传)
 
 > 这些渗透工具是通过网上收集而来，不保证安全性，可用来初次参考
@@ -168,7 +167,7 @@ Java 工具，执行语句格式如下：
 ![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/63be618a-354a-45ba-aa8f-6c941df27f41)
 到这里就大功告成了，当想要打开 Pentool 时，按下设置的快捷键：Ctrl+Tab 就能直接启动
 ​	
-
+   
 ## 感谢
 
 感谢以下项目，Pentool 受到了它们的启发：
