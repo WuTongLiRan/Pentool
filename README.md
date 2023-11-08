@@ -1,12 +1,12 @@
 # 欢迎使用 Pentools 集成工具箱！
 
-Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可以自定义添加工具，利于自己拓展并提高工作效率
-
-此项目作为初学两天 Python 的人开发，也是我的第一个项目。难免在代码和实现逻辑上不够优雅，大佬不喜勿喷
+Pentools 是一个渗透集成工具箱，旨在为零散的渗透工具提供集成 UI ，使用者可以自定义添加工具，自己搭建属于自己的渗透武器库，从而提高工作效率
 
 <cent><img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/14370278-1089-487b-8a57-91c0461e9489" alt="Pentool_README-1" width="40%;" /></cent>
 
 <cent>效果图⬆</cent>
+
+> 此项目为本人初学两天 Python 的成果，也是本人的第一个项目。难免在代码和实现逻辑上不够优雅，大佬不喜勿喷
 
 ​	
 
@@ -17,11 +17,11 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
    ```
    pip install PySide6
    
-   //若下载慢可以换源：
+   //若下载慢可以换源,以下是使用清华pip源的下载示例：
    pip install PySide6 -i https://pypi.tuna.tsinghua.edu.cn/simple
    ```
 
-2. 将项目下载到本地指定地方 (git 克隆或者手动下载 zip 压缩包)
+2. 将项目下载到本地 (可通过 git 将项目下载到指定目录，或者手动下载 zip 压缩包并解压到指定目录)
 
 3. 下载作为示例的渗透工具和 Java 执行文件到项目目录下 (可选，也可以不下载)
 
@@ -29,9 +29,9 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
    
    123云盘-https://www.123pan.com/s/C5VRVv-EtEAA.html提取码:04MZ
 
-> 这些渗透工具是通过网上收集而来，不保证其安全性，可作为初次参考
+> 注意：这些渗透工具和 Java 文件是通过网上收集而来，无法保证其安全性！！！可作为初次使用的参考
 >
-> 待熟悉如何添加工具列表后建议删掉，使用自己收集的工具
+> 强烈建议熟悉如何添加工具列表后删掉这些渗透工具和 Java 文件，配置自己收集的工具和语言环境
 
 一切就绪后项目目录结构如下：
 
@@ -93,7 +93,7 @@ tools = {
 }
 #执行语句的格式看下面的讲解
 
-#Java路径设置
+#设置电脑上的Java路径
 tools_path = os.getcwd()
 if platform.system() == 'Windows' :
     java8_path = (tools_path + "\Java_path\jre_1.8_win\\bin\java").replace('\\','\\\\')
