@@ -1,6 +1,6 @@
-# 欢迎使用 Pentool 集成工具箱！
+# 欢迎使用 Pentools 集成工具箱！
 
-Pentool 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可以自定义添加工具，利于自己拓展并提高工作效率
+Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可以自定义添加工具，利于自己拓展并提高工作效率
 
 此项目作为初学两天 Python 的人开发，也是我的第一个项目。难免在代码和实现逻辑上不够优雅，大佬不喜勿喷
 
@@ -10,7 +10,7 @@ Pentool 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可�
 
 ## 安装
 
-1. 要使用 Pentool 需要安装 PySide6 库 (若下载慢可以换源)
+1. 要使用 Pentools 需要安装 PySide6 库 (若下载慢可以换源)
 
    ```
    pip install PySide6
@@ -166,7 +166,7 @@ Java 工具，执行语句格式如下：
 ![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/1e16b584-9025-43d2-ba64-c4b97612925d)
 打开 utools 的 全局快捷键 界面，如图设置
 ![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/63be618a-354a-45ba-aa8f-6c941df27f41)
-到这里就大功告成了，当想要打开 Pentool 时，按下设置的快捷键：Ctrl+Tab 就能直接启动
+到这里就大功告成了，当想要打开 Pentools 时，按下设置的快捷键：Ctrl+Tab 就能直接启动
 ​	
    
 ## 感谢
