@@ -56,7 +56,7 @@ Pentools 是一个渗透集成工具箱，旨在为零散的渗透工具提供�
 
 ## 原理
 
-`GUIBuild.py`  通过读取 `config.py` 里的数据，自动生成 `PentoolsGUI.py` (UI 界面) 和 `click.py` (点击事件) 。
+`GUIBuild.py`  通过读取 `config.py` 里的数据，自动生成 `PentoolsGUI.py` (UI 界面) 和 `click.py` (点击事件) 
 
 ​	
 
