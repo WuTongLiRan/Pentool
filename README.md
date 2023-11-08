@@ -2,7 +2,7 @@
 
 Pentools 是一个渗透集成工具箱，旨在为零散的渗透工具提供集成 UI ，使用者可以自定义添加工具，自己搭建属于自己的渗透武器库，从而提高工作效率
 
-<cent><img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/14370278-1089-487b-8a57-91c0461e9489" alt="Pentool_README-1" width="40%;" /></cent>
+<cent><img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/14370278-1089-487b-8a57-91c0461e9489" alt="Pentool_README-1" width="40%" /></cent>
 
 <cent>效果图⬆</cent>
 
@@ -182,16 +182,16 @@ Pentools 本身没有快捷键启动的功能，可以配合办公效率神器 u
 首先下载 utools ，完成基本的设置(账号注册、开机自启等等)
 
 在 utools 里下载插件 闪电启动 
-![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/0fb7b6cc-d893-4c7c-9956-bed242540338)
+<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/0fb7b6cc-d893-4c7c-9956-bed242540338" alt="图片" width="50%"/>
 
 打开 闪电启动
-![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/075951ea-8b9e-4673-a72a-a7c3b65a93d0)
+<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/075951ea-8b9e-4673-a72a-a7c3b65a93d0" alt="图片" width="50%"/>
 
 将 一键启动.vbs 导入并设置关键字，例如：渗透工具箱
-![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/1e16b584-9025-43d2-ba64-c4b97612925d)
+<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/1e16b584-9025-43d2-ba64-c4b97612925d" alt="图片" width="50%"/>
 
 打开 utools 的 全局快捷键 界面，如图设置
-![图片](https://github.com/WuTongLiRan/Pentool/assets/134190463/63be618a-354a-45ba-aa8f-6c941df27f41)
+<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/63be618a-354a-45ba-aa8f-6c941df27f41" alt="图片" width="50%"/>
 
 到这里就大功告成了，当想要打开 Pentools 时，按下设置的快捷键：Ctrl+Tab 就能直接启动
 	
