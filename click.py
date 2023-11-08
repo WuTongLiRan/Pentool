@@ -6,10 +6,10 @@ from config import java11_path
 class click():
         
     def btn_1():
-        subprocess.Popen(  'start E:\Python_project\Pentool-fb\gui_scan'  , shell=True)
+        subprocess.Popen(  'start e:\Python_project\Pentool-fb\gui_scan'  , shell=True)
                 
     def btn_2():
-        subprocess.Popen(  ' start powershell -NoExit cd E:\Python_project\Pentool-fb\gui_scan\ '  , shell=True)
+        subprocess.Popen(  ' start powershell -NoExit cd e:\Python_project\Pentool-fb\gui_scan\ '  , shell=True)
                 
     def btn_3():
         subprocess.Popen(  'start cmd /k " cd gui_scan/403bypasser " '  , shell=True)
@@ -18,7 +18,7 @@ class click():
         subprocess.Popen( 'cd gui_scan && ' + java8_path + ' -jar ' + 'TODA.jar' , shell=True)
                 
     def btn_5():
-        subprocess.Popen(  'python3 E:\Python_project\Pentool-fb/gui_scan/Gr33k/Gr33k.py '  , shell=True)
+        subprocess.Popen(  'python3 e:\Python_project\Pentool-fb/gui_scan/Gr33k/Gr33k.py '  , shell=True)
                 
     def btn_6():
         subprocess.Popen(  ' cd gui_scan && ' + java8_path + ' -jar ' + 'CAS_cc2_Exploit-1.0-SNAPSHOTv1.1-all.jar'  , shell=True)
@@ -75,10 +75,10 @@ class click():
         subprocess.Popen(  ' cd gui_scan/Multiple.Database.Utilization.Tools.-.v2.0.6 && ' + java8_path + ' -jar ' + 'MDUT.jar'  , shell=True)
                 
     def btn_24():
-        subprocess.Popen(  'start E:\Python_project\Pentool-fb\gui_pentest'  , shell=True)
+        subprocess.Popen(  'start e:\Python_project\Pentool-fb\gui_pentest'  , shell=True)
                 
     def btn_25():
-        subprocess.Popen(  "start powershell -NoExit cd E:\Python_project\Pentool-fb\gui_pentest\ "  , shell=True)
+        subprocess.Popen(  "start powershell -NoExit cd e:\Python_project\Pentool-fb\gui_pentest\ "  , shell=True)
                 
     def btn_26():
         subprocess.Popen( 'cd gui_pentest/Godzilla && ' + java8_path + ' -jar ' + 'Godzilla.jar' , shell=True)
@@ -99,10 +99,10 @@ class click():
         subprocess.Popen( 'cd gui_pentest/CobaltStrike/Cobalt_Strike_4.4 && ' + java8_path + ' -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -jar cobaltstrike.jar $*' , shell=True)
                 
     def btn_32():
-        subprocess.Popen(  'start E:\Python_project\Pentool-fb\gui_shouji'  , shell=True)
+        subprocess.Popen(  'start e:\Python_project\Pentool-fb\gui_shouji'  , shell=True)
                 
     def btn_33():
-        subprocess.Popen(  "start powershell -NoExit cd E:\Python_project\Pentool-fb\gui_shouji\ "  , shell=True)
+        subprocess.Popen(  "start powershell -NoExit cd e:\Python_project\Pentool-fb\gui_shouji\ "  , shell=True)
                 
     def btn_34():
         subprocess.Popen( 'cd gui_shouji/yjdirscanv1.1 && 御剑目录扫描专业版v1.1.exe' , shell=True)

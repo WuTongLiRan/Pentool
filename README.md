@@ -24,7 +24,7 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
 
    百度网盘-https://pan.baidu.com/s/1VW0CI-uzLD5zDAaA1GbMdA?pwd=24mh
    
-   123云盘-(待上传)
+   123云盘-https://www.123pan.com/s/C5VRVv-EtEAA.html提取码:04MZ
 
 > 这些渗透工具是通过网上收集而来，不保证安全性，可用来初次参考
 >
@@ -62,7 +62,7 @@ Pentools 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可
 ```
 E:\Python\Python37\python.exe GUIBuild.py
 E:\Python\Python37\python.exe PentoolGUI.py
-@REM 将python.exe的路径修改成自己电脑上的正确路径
+@REM 将python.exe的路径修改成自己电脑上的正确路径，如果电脑不支持这种运行方式就直接：python GUIBuild.py 和 python PentoolsGUI.py
 ```
 
 2.打开 config.py ，配置工具列表以及执行语句
