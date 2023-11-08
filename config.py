@@ -148,10 +148,10 @@ tools = {
 '某某某分类4':{},
 }
 
-#Java路径设置
+#设置电脑上的 JDK 路径
 tools_path = os.getcwd()
 if platform.system() == 'Windows' :
-    java8_path = (tools_path + "\Java_path\jre_1.8_win\\bin\java").replace('\\','\\\\')
+    java8_path = (tools_path + "\Java_path\jre_1.8_win\\bin\java").replace('\\','\\\\')#这里的路径是相对路径
     java9_path = (tools_path + "\Java_path\java9_win\\bin\java").replace('\\','\\\\')
     java11_path = (tools_path + "\Java_path\Java_11_win\\bin\java").replace('\\','\\\\')
 else:
