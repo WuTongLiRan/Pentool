@@ -4,7 +4,7 @@ Pentool 是一个 渗透工具箱，旨在为渗透工具提供集成 UI ，可�
 
 此项目作为初学两天 Python 的人开发，也是我的第一个项目。难免在代码和实现逻辑上不够优雅，大佬不喜勿喷
 
-<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/14370278-1089-487b-8a57-91c0461e9489" alt="Pentool_README-1" width="30%;" />
+<img src="https://github.com/WuTongLiRan/Pentool/assets/134190463/14370278-1089-487b-8a57-91c0461e9489" alt="Pentool_README-1" width="40%;" />
 
 ​	
 
