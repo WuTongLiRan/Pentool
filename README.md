@@ -126,7 +126,7 @@ CMD 命令行工具，执行语句格式如下：
 Python 工具，执行语句格式如下：
 
 ```
-" '{python} {base_dir}工具相对路径\工具.py ' ".format(python=python,base_dir=base_dir),
+" '{python} {base_dir}工具/相对路径/工具.py ' ".format(python=python,base_dir=base_dir),
 
 例如：
 'Gr33k漏洞利用工具集':
