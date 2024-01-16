@@ -187,7 +187,7 @@ Pentools 本身没有快捷键启动的功能，可以配合办公效率神器 u
 
 打开 全局快捷键 界面，如图设置
 
-![图片](https://github.com/WuTongLiRan/Pentools/assets/134190463/714446b9-b77e-49fb-8202-eb9c835e6a65)
+<img src="https://github.com/WuTongLiRan/Pentools/assets/134190463/714446b9-b77e-49fb-8202-eb9c835e6a65" alt="Pentool_README-2" width="50%" />
 
 
 到这里就大功告成了，当想要打开 Pentools 时，按下设置的快捷键：Ctrl+Tab 就能直接启动
